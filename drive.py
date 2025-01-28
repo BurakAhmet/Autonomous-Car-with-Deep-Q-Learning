@@ -20,7 +20,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 action_size = 5
 
 # Path to your saved model weights
-MODEL_PATH = 'C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Autonomous Car with DQL\\best_dqn_model2.pth'
+MODEL_PATH = 'best_dqn_model.pth'
 
 # Waypoints (same as used during training, adjust if needed)
 waypoints = [
