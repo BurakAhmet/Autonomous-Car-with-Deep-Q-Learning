@@ -3,14 +3,14 @@
 
 This repository demonstrates how to train and run a Deep Q-learning (DQN) model for controlling an autonomous car using the [AirSim](https://github.com/microsoft/AirSim/releases/download/v1.8.1-windows/AirSimNH.zip) simulation environment. The primary goal is to teach the car to navigate an environment without collisions, maximizing a reward function that encourages safe and efficient driving.
 ## Table of Contents
-1. [Project Overview]()
-2. [Installation]()
+1. [Project Overview](https://github.com/BurakAhmet/Autonomous-Car-with-Deep-Q-Learning/tree/main?tab=readme-ov-file#project-overview)
+2. [Installation](https://github.com/BurakAhmet/Autonomous-Car-with-Deep-Q-Learning/tree/main?tab=readme-ov-file#installation)
     - Requirements
-3. [Usage]()
-4. [How It Works?]()
+3. [Usage](https://github.com/BurakAhmet/Autonomous-Car-with-Deep-Q-Learning/tree/main?tab=readme-ov-file#usage)
+4. [How It Works?](https://github.com/BurakAhmet/Autonomous-Car-with-Deep-Q-Learning/tree/main?tab=readme-ov-file#how-it-works)
     - Neural Network Architecture
     - Reward Function
-5. [Results]()
+5. [Results](https://github.com/BurakAhmet/Autonomous-Car-with-Deep-Q-Learning/tree/main?tab=readme-ov-file#results)
 
 ## Project Overview
 In this project, a deep Q-learning algorithm is employed to train a car to navigate autonomously. The car receives observations from the environment—such as camera view of the obstacles, velocity, coordinates, and sensor readings—and uses a DQN to decide the best possible steering and acceleration actions. The car trained for 1000 episodes (it took about 12 hours) to reach the end of the street and turn left without any collisions.
